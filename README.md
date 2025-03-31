@@ -3,7 +3,7 @@
 # Hello World!, I'm Goodluck, a web developer 👋🏼:
 
 🚀 currently working on AI-powered solutions at HNG<br>💻 passionate about backend development, machine learning, and RESTFul APIs<br>👨🏼‍💻 working as a web developer since 2022 <br>🎯 focused on building scalable and efficient systems<br>🎙 Exploring AI-powered voice technologies<br>📍 Open to exciting projects and collaborations
-![Profile Views](https://komarev.com/ghpvc/?username=mantle-bearer&color=blue)
+
 
 # 💻 Tech Stack:
 
