@@ -2,7 +2,7 @@
 
 # Hello World!, I'm Goodluck, a web developer 👋🏼:
 
-🚀 currently working on AI-powered solutions at HNG<br>💻 passionate about backend development, machine learning, and RESTFul APIs<br>👨🏼‍💻 working as a web developer since 2022 <br>🎯 focused on building scalable and efficient systems<br>🎙 Exploring AI-powered voice technologies<br>📍 Open to exciting projects and collaborations
+🚀 Currently working on AI-powered digital solutions<br>💻 passionate about backend development, machine learning, and so much more<br>👨🏼‍💻 working as a web developer since 2022 <br>🎯 focused on building scalable and efficient systems<br>🎙 Exploring AI-powered voice technologies<br>📍 Open to exciting projects and collaborations
 
 
 # 💻 Tech Stack:
