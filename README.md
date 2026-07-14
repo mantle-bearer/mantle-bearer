@@ -1,6 +1,6 @@
 <img src="github_banner.jpg" alt="GitHub Banner" width="100%" />
 
-# Hello World!, I'm Goodluck, a web developer 👋🏼:
+# Hello World!, I'm Goodluck, a Software Engineer 👋🏼:
 
 🚀 Currently working on AI-powered digital solutions<br>💻 passionate about backend development and machine learning<br>👨🏼‍💻 working as a web developer since 2022 <br>🎯 focused on building scalable and efficient systems<br>🎙 Exploring AI-powered voice technologies<br>📍 Open to exciting projects and collaborations
 
