@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="light.svg">
+    <img alt="Goodluck - Terminal Profile" src="dark.svg" width="100%">
+  </picture>
+</p>
+
 <img src="github_banner.jpg" alt="GitHub Banner" width="100%" />
 
 # Hello World!, I'm Goodluck, a Software Engineer 👋🏼:
