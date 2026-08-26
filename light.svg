@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="586" viewBox="0 0 1180 586">
+<defs>
+  <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#059669">
+      <animate attributeName="stop-color" values="#059669;#0D9488;#10B981;#059669" dur="8s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#0D9488">
+      <animate attributeName="stop-color" values="#0D9488;#10B981;#059669;#0D9488" dur="8s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#059669"/>
+    <stop offset="50%" stop-color="#0D9488"/>
+    <stop offset="100%" stop-color="#10B981"/>
+  </linearGradient>
+  <radialGradient id="bgGlow" cx="30%" cy="20%" r="80%">
+    <stop offset="0%" stop-color="#F8FAFC"/>
+    <stop offset="100%" stop-color="#E2E8F0"/>
+  </radialGradient>
+  <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+  <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0"/>
+  <stop offset="45%" stop-color="#0EA5E9" stop-opacity="0.06"/>
+  <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.55"/>
+  <stop offset="55%" stop-color="#0EA5E9" stop-opacity="0.06"/>
+  <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+</linearGradient>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+  <rect width="4" height="1" fill="#334155" opacity="0.035"/>
+</pattern>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="4" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+  <mask id="revealMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1180" height="620">
+  <rect x="0" y="0" width="1180" height="0" fill="#fff">
+    <animate attributeName="height" from="0" to="560" dur="2.6s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  </rect>
+</mask>
+  <clipPath id="lc0"><rect x="500" y="26.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.75s" fill="freeze"/></rect></clipPath><clipPath id="lc1"><rect x="500" y="50.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.86s" fill="freeze"/></rect></clipPath><clipPath id="lc2"><rect x="500" y="72.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="0.98s" fill="freeze"/></rect></clipPath><clipPath id="lc3"><rect x="500" y="94.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.09s" fill="freeze"/></rect></clipPath><clipPath id="lc4"><rect x="500" y="116.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.21s" fill="freeze"/></rect></clipPath><clipPath id="lc5"><rect x="500" y="138.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.32s" fill="freeze"/></rect></clipPath><clipPath id="lc6"><rect x="500" y="160.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.44s" fill="freeze"/></rect></clipPath><clipPath id="lc7"><rect x="500" y="182.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.55s" fill="freeze"/></rect></clipPath><clipPath id="lc8"><rect x="500" y="204.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.67s" fill="freeze"/></rect></clipPath><clipPath id="lc9"><rect x="500" y="226.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.78s" fill="freeze"/></rect></clipPath><clipPath id="lc10"><rect x="500" y="248.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="1.90s" fill="freeze"/></rect></clipPath><clipPath id="lc11"><rect x="500" y="270.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.02s" fill="freeze"/></rect></clipPath><clipPath id="lc12"><rect x="500" y="292.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.13s" fill="freeze"/></rect></clipPath><clipPath id="lc13"><rect x="500" y="314.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.25s" fill="freeze"/></rect></clipPath><clipPath id="lc14"><rect x="500" y="336.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.36s" fill="freeze"/></rect></clipPath><clipPath id="lc15"><rect x="500" y="358.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.48s" fill="freeze"/></rect></clipPath><clipPath id="lc16"><rect x="500" y="380.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.59s" fill="freeze"/></rect></clipPath><clipPath id="lc17"><rect x="500" y="402.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.71s" fill="freeze"/></rect></clipPath><clipPath id="lc18"><rect x="500" y="424.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.82s" fill="freeze"/></rect></clipPath><clipPath id="lc19"><rect x="500" y="446.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="2.94s" fill="freeze"/></rect></clipPath><clipPath id="lc20"><rect x="500" y="468.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.05s" fill="freeze"/></rect></clipPath><clipPath id="lc21"><rect x="500" y="490.00" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.38s" begin="3.17s" fill="freeze"/></rect></clipPath>
+  <style>
+    .ascii  { font-family: 'Courier New', Consolas, monospace; font-size: 7.4px; fill: url(#asciiGrad); letter-spacing: -0.2px; }
+    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #0D9488; font-weight: bold; }
+    .value  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #0F172A; font-weight: 500; }
+    .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #CBD5E1; }
+    .head   { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #059669; font-weight: bold; }
+    .accent { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #059669; font-weight: bold; }
+    text, tspan { white-space: pre; }
+    
+    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #0D9488; letter-spacing: 0.5px; opacity: 0.8; }
+    .scan-label { font-family: 'Courier New', Consolas, monospace; font-size: 10px; fill: #DC2626; letter-spacing: 1px; }
+    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #059669; letter-spacing: 2px; opacity: 0.85; }
+    .cursor-blink { fill: #059669; }
+  </style>
+</defs>
+
+<rect width="1180" height="586" rx="18" fill="url(#bgGlow)"/>
+<rect width="1180" height="586" rx="18" fill="url(#scanlines)"/>
+
+<g id="titlebar">
+  <rect x="3" y="3" width="1174" height="34" rx="16" fill="#FFFFFF" fill-opacity="0.9"/>
+  <circle cx="24" cy="20" r="5" fill="#F87171"><animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="42" cy="20" r="5" fill="#FBBF24"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.3s" repeatCount="indefinite"/></circle>
+  <circle cx="60" cy="20" r="5" fill="#34D399"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <text x="590" y="25" text-anchor="middle" class="term-label">goodluck@mantle-bearer ~ % ./profile.sh --live</text>
+  <circle cx="1070" cy="20" r="4" fill="#EF4444">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1080" y="24" class="scan-label">SCANNING</text>
+</g>
+
+<g transform="translate(0,44)">
+  <rect x="14" y="18" width="488" height="490" rx="14" fill="#FFFFFF" fill-opacity="0.55" stroke="url(#borderGrad)" stroke-width="1" opacity="0.4"/>
+  <rect x="508" y="8" width="655" height="518" rx="14" fill="#FFFFFF" fill-opacity="0.55" stroke="url(#borderGrad)" stroke-width="1" opacity="0.4"/>
+  <text x="30" y="24" class="panel-title">VISUAL.MAP</text>
+  <text x="524" y="6" class="panel-title">SYSTEM.INFO</text>
+
+  <g mask="url(#revealMask)">
+  <text x="30" y="0" class="ascii">
+<tspan x="25" y="40.00" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.      .      .      .      .      .      .      .      .      .      .      .      .     </tspan>
+<tspan x="25" y="47.55" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .      .      .      .      .      .      .      .      .      .      .      .      .</tspan>
+<tspan x="25" y="55.10" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .      .      .      .      .      .      .      .      .      .      .      .      .  </tspan>
+<tspan x="25" y="62.65" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .      .      .      .      .      .      .      .      .      .      .      .      .    </tspan>
+<tspan x="25" y="70.20" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      .      .      .      .      .      .      .      .      .      .      .      .      </tspan>
+<tspan x="25" y="77.75" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .      .      .      .      .   .-:=+**+**+**+=::-      .      .      .      .      . </tspan>
+<tspan x="25" y="85.30" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .      .      .      .      ..:+**+**+**+**+**+**+**+**:-      .      .      .      .   </tspan>
+<tspan x="25" y="92.85" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.      .      .      .      -=**+**+**:.      .-:*+**+**+**+*- .      .      .      .     </tspan>
+<tspan x="25" y="100.40" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .      .      .     -=*+**+**=-               -+**+**+**+**-   .      .      .      .</tspan>
+<tspan x="25" y="107.95" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .      .      .     -+**+**+*-                     :**+**+**+**:      .      .      .  </tspan>
+<tspan x="25" y="115.50" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .      .      .     -*+**+**+=                        .+**+**+**+**:  .      .      .    </tspan>
+<tspan x="25" y="123.05" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      .      .     .**+**+**+-           .-              =oe*+**+**+**-     .      .      </tspan>
+<tspan x="25" y="130.60" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .      .      :**+**+**+*       ..:.:=:+---.   .      =o+**+**+**+**  .      .      . </tspan>
+<tspan x="25" y="138.15" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .      .      .+**+**+**+*    -=+eossennneessoe**++:.    =**+**+**+**+*-     .      .   </tspan>
+<tspan x="25" y="145.70" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.      .      .-+**+**+**+*.:=+*eosseennnnmmnnnessoe**=     *+**+**+**+**+:  .      .     </tspan>
+<tspan x="25" y="153.25" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .      . -+**+**+**+**:***eoosseenmmmmmmmnnessoe*e:    +**+**+**+**+**:      .      .</tspan>
+<tspan x="25" y="160.80" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .      .  :+**+**+**+**.+*+*eossennnmmmmmmmnnessoeee*:   -*+**+**+**+**+*=   .      .  </tspan>
+<tspan x="25" y="168.35" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .      .   -+**+**+**+**+.***eeoseennmmmmmmmnnnessooooe+.  .+**+**+**+**+**+:.      .    </tspan>
+<tspan x="25" y="175.90" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      .    .+**+**+**+**+*=+**eeoseennmmmmmmmnnneessoooe+-   **+**+**+**+**+**-    .      </tspan>
+<tspan x="25" y="183.45" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .      +**+**+**+**+**=**+eeosseenmmmmm8888mmnessoee+:. .*+**+**+**+**+**+*  .      . </tspan>
+<tspan x="25" y="191.00" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .      .:**+**+**+**+**++*eeoseennnnnmmmmnneeoeeeoooe*+:  .+**+**+**+**+**+**+      .   </tspan>
+<tspan x="25" y="198.55" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.      .  **+**+**+**+**+*+*+:=++=**seeees:. .-:+++**ee*+:. :**+**+**+**+**+**+*.   .     </tspan>
+<tspan x="25" y="206.10" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .   :*+**+**+**+**+**+: --.    :*eee+..--::=:::=+**+:. **+**+**+**+**+**+**+ .      .</tspan>
+<tspan x="25" y="213.65" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .     *+**+**+**+**+**+*=::-.   .=*oeese*:.+- --:=*e*+: -*+**+**+**+**+**+**+*      .  </tspan>
+<tspan x="25" y="221.20" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .      -+**+**+**+**+**+**+. .:-=*=eesneeeessoossenesoe+:.+: *+**+**+**+**+**+**=   .    </tspan>
+<tspan x="25" y="228.75" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      . =**+**+**+**+**+**++eooeeoooeesesosenmmnennmneoe*: -o*+**+**+**+**+**+**+* .      </tspan>
+<tspan x="25" y="236.30" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .   **+**+**+**+**+**+**osseeeseosn8menessm8##88meoe+--:eo**+**+**+**+**+**+**      . </tspan>
+<tspan x="25" y="243.85" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .     *+**+**+**+**+**+***osenns+==*ss*::-=onssm#mnso*=.:ee**+**+**+**+**+**+**+    .   </tspan>
+<tspan x="25" y="251.40" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.      .+**+**+**+**+**+**+*eseseo*:-.--:*senmnno*oese*+: :o**+**+**+**+**+**+**+*- .     </tspan>
+<tspan x="25" y="258.95" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     . .**+**+**+**+**+**+*+eooee*ee***oeenesosses*+e*==: +o*+**+**+**+**+**+**+**-      .</tspan>
+<tspan x="25" y="266.50" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .   .*+**+**+**+**+**+**+*eee*==::+**e*+==:--.:***+=+:-**+**+**+**+**+**+**+**+-    .  </tspan>
+<tspan x="25" y="274.05" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .      +**+**+**+**+**+**+*++*+.  =om8s@#8no+--=*e**=++-=oo**+**+**+**+**+**+**+*   .    </tspan>
+<tspan x="25" y="281.60" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      . **+**+**+**+**+**+**=+**+=*oem8m888se*eseoe*=++=-*oo*+**+**+**+**+**+**+** .      </tspan>
+<tspan x="25" y="289.15" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .   *+**+**+**+**+**+**+*=**eee**eosooooeeooe**+++=:=eoo+**+**+**+**+**+**+**+      . </tspan>
+<tspan x="25" y="296.70" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .     -**+**+**+**+**+**+**+++**eee*+=*eossooee*++++=+=eoo**+**+**+**+**+**+**+=    .   </tspan>
+<tspan x="25" y="304.25" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.      . *+**+**+**+**+**oooooe++*eoseesnnnesooe*++***+:=ssoeooooo*+**+**+**+**+*   .     </tspan>
+<tspan x="25" y="311.80" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .   =**+**+**+**+**+oeooooeee*eosssseeeoe*+**eo*:--e##%eeoooo+**+**+**+**+** .      .</tspan>
+<tspan x="25" y="319.35" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .      *+**+**+**+**+*oooooee+:e+====++==:=*osse:.:*s8##%#ooooo**+**+**+**+**.      .  </tspan>
+<tspan x="25" y="326.90" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .      . :eooooooooooooooooooemn. -----:-.-+*e+=--+s8#%%#8#%meooooooooeeooooeo+     .    </tspan>
+<tspan x="25" y="334.45" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      .    +eoooooooooooooooooo888e:.       -::+oe8%%%%##88#%%seooooooeoooeoooe    .      </tspan>
+<tspan x="25" y="342.00" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .      .eeoooooooooooooooes88888ns*++=+eem8##%%%%##88##%%@meooooooooeeeooo-  .      . </tspan>
+<tspan x="25" y="349.55" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .      .  -eeooooooooooooooom8888mmmmm8888888#%%%%#####%@@@%%oooooooeoooeoo: .      .   </tspan>
+<tspan x="25" y="357.10" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.      .     :eoooeoooooooooes8888888mmmmmm88##%%%%###%%@@@@%#neeooooooooeeo=.      .     </tspan>
+<tspan x="25" y="364.65" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .      . :eoeeeooooooooon8888##8#88####%%%%%%%%%%@@@@@#8m#8eeeeooooeeo=      .      .</tspan>
+<tspan x="25" y="372.20" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .      .    -eoeooooooeeenm8#88##########%%%%%%%%%%@@%#88%@@@@#eoeeoooo:     .      .  </tspan>
+<tspan x="25" y="379.75" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .      .      ..*ooooeeeoem8mm8##############%%%%%%%#88m8#@@@@@%@@%msee*-    .      .    </tspan>
+<tspan x="25" y="387.30" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">      .      .    :*eeoem8##88mmmm88888#########88mmmmm8#%@@@@@@@@@@@%#e    .      .      </tspan>
+<tspan x="25" y="394.85" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .      .      .+em#####8##888mmmmmnmmmmmmnnmmm88#%%@@@@@@@@@@@@@@%@%#e+      .      . </tspan>
+<tspan x="25" y="402.40" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .      .      *em#################8888888888###%%@@@@@@@@@@@@@@@@@@@%%%@@8s= .      .   </tspan>
+<tspan x="25" y="409.95" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.      .    +sm#%%########%#####%%%%%%%%####%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%me    .     </tspan>
+<tspan x="25" y="417.50" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">     .   +e8##%##%#%%%%%%#%%####%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#%%8s=      .</tspan>
+<tspan x="25" y="425.05" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   .   e#%%####%%%#%%%%%%%%%%%#8##%%%%@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@%%%%%#m*  .  </tspan>
+<tspan x="25" y="432.60" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .   +8%#####%%%%%%%%%%%%%%%%%%%##%%%%%%@%@@%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@%%%%@%%%%#s   </tspan>
+<tspan x="25" y="440.15" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    +#m8%%%%#%%%%%%%%%%%%%%%%%%%%#%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@%###%n  </tspan>
+<tspan x="25" y="447.70" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">   =##88%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%@@@@%%%%#8#s </tspan>
+<tspan x="25" y="455.25" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  .m###m%%%%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@%%@@@@@@@@@@@@@@@@%@@@@%%@@%%@@@@%#%%###8#+</tspan>
+<tspan x="25" y="462.80" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve">. s8#%#m#%%%#%%%%%%%%%#%%%%%%%%%%%%%%%%%%%#@%%%%%%%%@@@@@@@@%@@@%@@@@%%@%#@@@@%##%@%###88n</tspan>
+<tspan x="25" y="470.35" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> :#m#%#m8%#%#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%%%%%%@@@@@@%@@@%@@@@%%@%%@@@%#8%@@%#%%##88</tspan>
+<tspan x="25" y="477.90" textLength="455" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> s#mm%%88%%%#%%%%%%%%%%%%%%%%%%%%%%#%%%%%#%%%%%%%%%%%@@@@@@@@%%@@@@%@@%%@@%%8#@@%%#%%##888</tspan>
+  </text>
+  </g>
+
+  <g clip-path="url(#lc0)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="42" class="head">goodluck@mantle-bearer</tspan><tspan class="cc"> —————————————————————————————————————————————-—-</tspan></text></g><g clip-path="url(#lc1)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="66" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc">: ................ </tspan><tspan class="value">Goodluck</tspan></text></g><g clip-path="url(#lc2)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="88" class="cc">. </tspan><tspan class="key">Role</tspan><tspan class="cc">: ................... </tspan><tspan class="value">Software Engineer · Backend &amp; AI Systems</tspan></text></g><g clip-path="url(#lc3)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="110" class="cc">. </tspan></text></g><g clip-path="url(#lc4)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="132" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Building AI Solutions · Scaling Systems</tspan></text></g><g clip-path="url(#lc5)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="154" class="cc">. </tspan><tspan class="key">Focus</tspan><tspan class="cc">: .................. </tspan><tspan class="value">AI Voice Tech · Distributed Systems</tspan></text></g><g clip-path="url(#lc6)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="176" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc">: .............. </tspan><tspan class="value">Docker, Git, Postman, Linux</tspan></text></g><g clip-path="url(#lc7)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="198" class="cc">. </tspan></text></g><g clip-path="url(#lc8)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="220" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Lang</tspan><tspan class="cc">: .............. </tspan><tspan class="value">Python, JS, TS, PHP, SQL</tspan></text></g><g clip-path="url(#lc9)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="242" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Backend</tspan><tspan class="cc">: ........... </tspan><tspan class="value">FastAPI, Django, Laravel, Node.js, Celery</tspan></text></g><g clip-path="url(#lc10)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="264" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Frontend</tspan><tspan class="cc">: .......... </tspan><tspan class="value">React, Next.js, Alpine.js, TailwindCSS</tspan></text></g><g clip-path="url(#lc11)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="286" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Database</tspan><tspan class="cc">: .......... </tspan><tspan class="value">PostgreSQL, MongoDB, Redis</tspan></text></g><g clip-path="url(#lc12)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="308" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Infra</tspan><tspan class="cc">: ............. </tspan><tspan class="value">Docker, AWS, GCP, Nginx</tspan></text></g><g clip-path="url(#lc13)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="330" class="cc">. </tspan></text></g><g clip-path="url(#lc14)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="352" class="accent">- Contact</tspan><tspan class="cc"> —————————————————————————————————————————————-—-</tspan></text></g><g clip-path="url(#lc15)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="374" class="cc">. </tspan></text></g><g clip-path="url(#lc16)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="396" class="cc">. </tspan><tspan class="key">Portfolio</tspan><tspan class="cc">: .............. </tspan><tspan class="value">goodluck.com.ng</tspan></text></g><g clip-path="url(#lc17)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="418" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ............... </tspan><tspan class="value">mantle-bearer</tspan></text></g><g clip-path="url(#lc18)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="440" class="cc">. </tspan><tspan class="key">X (Twitter)</tspan><tspan class="cc">: ............. </tspan><tspan class="value">demantlebearer</tspan></text></g><g clip-path="url(#lc19)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="462" class="cc">. </tspan><tspan class="key">GitHub</tspan><tspan class="cc">: ................. </tspan><tspan class="value">mantle-bearer</tspan></text></g><g clip-path="url(#lc20)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="484" class="accent">- Live Stats</tspan><tspan class="cc"> —————————————————————————————————————————————-—-</tspan></text></g><g clip-path="url(#lc21)"><text x="520" y="0" fill="#dbeafe"><tspan x="520" y="506" class="cc">. </tspan><tspan class="value">See live GitHub stats badges below in README ↓</tspan></text></g>
+
+  <rect x="522" y="491.0" width="9" height="16" class="cursor-blink" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="3.66s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<rect x="0" y="-70" width="1180" height="70" fill="url(#scanGrad)" opacity="0.8" style="mix-blend-mode:multiply">
+  <animateTransform attributeName="transform" type="translate" from="0 -70" to="0 630" dur="4.2s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="3" y="3" width="1174" height="580" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.75">
+  <animate attributeName="opacity" values="0.45;0.9;0.45" dur="3.2s" repeatCount="indefinite"/>
+</rect>
+</svg>
